@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name VEPlaybackSDK
+import AVFoundation
+import BanubaUtilities
+import Foundation
+import Swift
+import UIKit
+@_exported import VEPlaybackSDK
+import VideoEditor
+import _Concurrency
+public protocol VideoEditorPlayable : AnyObject {
+  func startPlay(loop: Swift.Bool, fixedSpeed: Swift.Bool)
+  func startPlay(loop: Swift.Bool, fixedSpeed: Swift.Bool, start: CoreMedia.CMTime, end: CoreMedia.CMTime)
+  func startStopPlay(loop: Swift.Bool, fixedSpeed: Swift.Bool)
+  func pausePlay()
+  func stopPlay()
+  func resumePlay()
+  func previewLayer() -> AVFoundation.AVPlayerLayer
+  func smoothlySeek(to time: CoreMedia.CMTime)
+  func seek(to time: CoreMedia.CMTime)
+  func reloadPreview()
+  func reloadPreview(shouldAutoStart: Swift.Bool)
+  var isPlaying: Swift.Bool { get }
+  var isMuted: Swift.Bool { get set }
+  var playerItem: AVFoundation.AVPlayerItem? { get }
+  var audioMix: AVFoundation.AVAudioMix? { get set }
+  var playerDelegate: VEPlaybackSDK.VideoEditorPlayerDelegate? { get set }
+  var avPlayer: AVFoundation.AVPlayer { get }
+  var currentTime: Foundation.TimeInterval { get }
+  var videoDuration: Swift.Double { get }
+  var currentTimeInCMTime: CoreMedia.CMTime { get }
+  var videoDurationCMTime: CoreMedia.CMTime { get }
+  var startTimePlay: CoreMedia.CMTime { get }
+  var endTimePlay: CoreMedia.CMTime { get }
+}
+public protocol VideoEditorPlayerDelegate : AnyObject {
+  func playerPlaysFrame(_ player: VEPlaybackSDK.VideoEditorPlayable, atTime time: CoreMedia.CMTime)
+  func playerDidEndPlaying(_ player: VEPlaybackSDK.VideoEditorPlayable)
+}
+public class VEPlayback {
+  public init(videoEditorService: VideoEditor.VideoEditorService)
+  public func getPlayer(forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: VEPlaybackSDK.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoEditorPlayable
+  public func getPlayableView(isThumbnailNeeded: Swift.Bool = true, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: VEPlaybackSDK.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoPlayableView
+  @objc deinit
+}
+public protocol VideoPlayableView : UIKit.UIImageView {
+  var previewLayer: AVFoundation.AVPlayerLayer { get }
+  var imageGenerator: AVFoundation.AVAssetImageGenerator? { get set }
+  var videoEditorPlayer: VEPlaybackSDK.VideoEditorPlayable? { get set }
+  var player: AVFoundation.AVPlayer? { get }
+  func setPlayer(_ player: VEPlaybackSDK.VideoEditorPlayable?, isThumbnailNeeded: Swift.Bool)
+}
