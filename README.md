@@ -2,12 +2,12 @@
 
 # Banuba VEPlaybackSDK. API Reference.
 
-- [Facade(Main entity)](#Facade(Main-entity))
-- [VideoEditorPlayable(Player entity)](#VideoEditorPlayable(Player-entity))
+- [Facade](#Facade)
+- [Player entity](#Player-entity)
 - [VideoEditorPlayerDelegate](#VideoEditorPlayerDelegate)
-- [VideoPlayableView(View with player implementation)][#VideoPlayableView(View-with-player-implementation)]
+- [View with player implementation](#View-with-player-implementation)
 
-## Facade(Main entity)
+## Facade
 
 Facade (VEPlayback entity) consists of several methods and constructor.
 
@@ -44,9 +44,9 @@ Public methods allows you to get preffered instance of pure player or already se
   ) -> VideoPlayableView
 ```
 
-## VideoEditorPlayable(Player entity)
+## Player entity
 
-The interface consists of a lot of methods that allow you to work with the playback of the player, its settings, reload and related properties of the asset, time, etc.
+The VideoEditorPlayable interface consists of a lot of methods that allow you to work with the playback of the player, its settings, reload and related properties of the asset, time, etc.
 
 Playback functionality:
 ``` swift
@@ -148,7 +148,7 @@ The delegate will allow you to catch the moments when the player is playing with
   func playerDidEndPlaying(_ player: VideoEditorPlayable)
 ```
 
-## VideoPlayableView(View with player implementation)
+## View with player implementation
 
 VideoPlayableView is already setuped render view with player implementation which allows you to display applied VEEffectsSDK effects and manage player states using VideoEditorPlayable interface.
 
