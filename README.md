@@ -4,6 +4,10 @@
 
 - [Facade](#Facade)
 - [Player entity](#Player-entity)
+    + [Playback functionality](#Playback-functionality)
+    + [Rewind functionality](#Rewind-functionality)
+    + [Reload functionality](#Reload-functionality)
+    + [Playback related properties](#Playback-related-properties)
 - [VideoEditorPlayerDelegate](#VideoEditorPlayerDelegate)
 - [View with player implementation](#View-with-player-implementation)
 
@@ -48,7 +52,7 @@ Public methods allows you to get preffered instance of pure player or already se
 
 The `VideoEditorPlayable` interface consists of a lot of methods that allow you to work with the playback of the player, its settings, reload and related properties of the asset, time, etc.
 
-Playback functionality:
+### Playback functionality
 ``` swift
   /// Start playing with parameters.
   ///  - parameters:
@@ -76,7 +80,7 @@ Playback functionality:
   func resumePlay()
 ```
 
-Rewind functionality.
+### Rewind functionality
 ``` swift
   /// Seek and stop player with chosen time.
   ///  - parameters:
@@ -88,7 +92,7 @@ Rewind functionality.
   func seek(to time: CMTime)
 ```
 
-Reload functionality.
+### Reload functionality
 ```swift
   /// Reload player preview.
   func reloadPreview()
@@ -100,7 +104,7 @@ Reload functionality.
   func reloadComposition(shouldAutoStart: Bool)
 ```
 
-Playback related properties.
+### Playback related properties
 ``` swift
    /// Is player in playing state.
   var isPlaying: Bool { get }
