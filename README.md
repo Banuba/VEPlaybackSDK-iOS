@@ -9,9 +9,9 @@
 
 ## Facade
 
-Facade (VEPlayback entity) consists of several methods and constructor.
+Facade (`VEPlayback` entity) consists of several methods and constructor.
 
-VEPlayback initialization requires instance of VideoEditorService.
+`VEPlayback` initialization requires instance of `VideoEditorService`.
 
 ``` swift
   /// VEPlayback constructor.
@@ -46,7 +46,7 @@ Public methods allows you to get preffered instance of pure player or already se
 
 ## Player entity
 
-The VideoEditorPlayable interface consists of a lot of methods that allow you to work with the playback of the player, its settings, reload and related properties of the asset, time, etc.
+The `VideoEditorPlayable` interface consists of a lot of methods that allow you to work with the playback of the player, its settings, reload and related properties of the asset, time, etc.
 
 Playback functionality:
 ``` swift
@@ -150,7 +150,7 @@ The delegate will allow you to catch the moments when the player is playing with
 
 ## View with player implementation
 
-VideoPlayableView is already setuped render view with player implementation which allows you to display applied VEEffectsSDK effects and manage player states using VideoEditorPlayable interface.
+`VideoPlayableView` is already setuped render view with player implementation which allows you to display applied VEEffectsSDK effects and manage player states using `VideoEditorPlayable` interface.
 
 Setup method which allows you to apply newest player to existing playable view render layer. 
 ```swift
@@ -162,8 +162,8 @@ Setup method which allows you to apply newest player to existing playable view r
 ```
 
 Related properties.
-Layer is AVPlayerLayer representation of playable view. 
-Image generator is need for thumbnail creation if VideoEditorPlayable using like cover choosing entity.
+Layer is `AVPlayerLayer` representation of playable view. 
+Image generator is need for thumbnail creation if `VideoEditorPlayable` using like cover choosing entity.
 ``` swift
   /// Layer instance of UIImageView casted to AVPlayerLayer.
   var previewLayer: AVPlayerLayer { get }
