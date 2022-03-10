@@ -2,6 +2,8 @@
 
 # Banuba VEPlaybackSDK. API Reference.
 
+VEPlaybackSDK allows you to display already setuped video composition from [Core API](https://github.com/Banuba/VideoEditor-iOS) and optionally edited with [Effects API](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is requires usage for VEPlaybackSDK.
+
 - [Facade](#Facade)
 - [Player entity](#Player-entity)
     + [Playback functionality](#Playback-functionality)
