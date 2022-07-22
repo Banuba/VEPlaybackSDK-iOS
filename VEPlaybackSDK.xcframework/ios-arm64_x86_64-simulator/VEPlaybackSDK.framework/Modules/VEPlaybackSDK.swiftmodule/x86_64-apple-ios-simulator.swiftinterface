@@ -10,7 +10,7 @@ import UIKit
 import VideoEditor
 import _Concurrency
 public class VEPlayback {
-  public init(videoEditorService: VideoEditor.VideoEditorService)
+  public init?(videoEditorService: VideoEditor.VideoEditorService)
   public func getPlayer(forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> BanubaUtilities.VideoEditorPlayable
   public func getPlayableView(isThumbnailNeeded: Swift.Bool = true, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoPlayableView
   @objc deinit
