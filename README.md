@@ -21,7 +21,8 @@ Facade (`VEPlayback` entity) consists of several methods and constructor.
 
 ``` swift
   /// VEPlayback constructor.
-  public init(
+  // Check if Export API doesn't enabled, return nil and write down error to console "⚠️, Token doesn't contain support for Playback API"
+  public init?(
     videoEditorService: VideoEditorService
   ) 
 ```
