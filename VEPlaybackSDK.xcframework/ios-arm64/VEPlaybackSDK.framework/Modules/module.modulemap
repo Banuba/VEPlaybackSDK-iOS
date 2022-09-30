@@ -6,6 +6,6 @@ framework module VEPlaybackSDK {
 }
 
 module VEPlaybackSDK.Swift {
-    header "VEPlaybackSDK-Swift.h"
-    requires objc
+  header "VEPlaybackSDK-Swift.h"
+  requires objc
 }
