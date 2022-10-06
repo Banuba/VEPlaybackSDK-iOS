@@ -3450,6 +3450,53 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "asset",
+                "printedName": "asset",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAsset",
+                    "printedName": "AVFoundation.AVAsset",
+                    "usr": "c:objc(cs)AVAsset"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5assetSo7AVAssetCvp",
+                "mangledName": "$s13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5assetSo7AVAssetCvp",
+                "moduleName": "VEPlaybackSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAsset",
+                        "printedName": "AVFoundation.AVAsset",
+                        "usr": "c:objc(cs)AVAsset"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5assetSo7AVAssetCvg",
+                    "mangledName": "$s13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5assetSo7AVAssetCvg",
+                    "moduleName": "VEPlaybackSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "framerate",
                 "printedName": "framerate",
                 "children": [
@@ -3467,7 +3514,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 0,
+                "fixedbinaryorder": 1,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -3514,7 +3561,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 1,
+                "fixedbinaryorder": 2,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -3545,13 +3592,19 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(framerate:timeRange:)",
+                "printedName": "init(asset:framerate:timeRange:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SegmentFramerateInfo",
                     "printedName": "VEPlaybackSDK.VideoEditorPlayer.SegmentFramerateInfo",
                     "usr": "s:13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAsset",
+                    "printedName": "AVFoundation.AVAsset",
+                    "usr": "c:objc(cs)AVAsset"
                   },
                   {
                     "kind": "TypeNominal",
@@ -3567,8 +3620,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV9framerate9timeRangeAESf_So06CMTimeK0atcfc",
-                "mangledName": "$s13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV9framerate9timeRangeAESf_So06CMTimeK0atcfc",
+                "usr": "s:13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5asset9framerate9timeRangeAESo7AVAssetC_SfSo06CMTimeL0atcfc",
+                "mangledName": "$s13VEPlaybackSDK17VideoEditorPlayerC20SegmentFramerateInfoV5asset9framerate9timeRangeAESo7AVAssetC_SfSo06CMTimeL0atcfc",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -6834,35 +6887,35 @@
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 880,
+      "offset": 899,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 913,
+      "offset": 932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 986,
+      "offset": 1005,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1014,
+      "offset": 1033,
       "length": 5,
       "value": "false"
     },
