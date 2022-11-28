@@ -2127,112 +2127,112 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 10,
       "value": "1000000000"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 580,
+      "offset": 579,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 608,
+      "offset": 607,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlayback.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlayback.swift",
       "kind": "BooleanLiteral",
       "offset": 1680,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 7,
       "value": "1000000"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 10,
       "value": "1000000000"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 899,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 932,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 1005,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 1033,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 529,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 561,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 594,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 667,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rostyslav\/Developer\/Banuba\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 695,
       "length": 5,

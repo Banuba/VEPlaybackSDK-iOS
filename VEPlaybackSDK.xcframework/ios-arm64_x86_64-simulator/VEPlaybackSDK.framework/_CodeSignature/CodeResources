@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tRxm08ChFDY0km/r/wN6R/7LCRU=
+		HPO/fhh7+81VaIewd09Vg2VVPHY=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iXEeMy+o1cpyQ81iCMPDJwwYTD4=
+		FiNrzddhGWzu63zweO57apKwdGE=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Dq+4mJ676QTbNVb3enN+5Hr+rDU=
+		6GVjsKfLusqKkj5bmcoqBjLf8qw=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iXEeMy+o1cpyQ81iCMPDJwwYTD4=
+		FiNrzddhGWzu63zweO57apKwdGE=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LwSMTGaTOu0puY5UE1cJDlhBC3o=
+		l290TfQYHLM6036j6shGgH5hl+Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IpbtW7ANpNof8CkWEZM1zERqGTqrEmzC1HWyS76jtOw=
+			PIcgv0aeNWh19Py+HMbWyYbMq/80qCF+4XJDphn0Dro=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kf4CWwWLxVEJ81bWEBIz7ZLsj3hx2Tpefj2CkjZvznA=
+			GNOOslwzna1+scNULOQ1+RFXSwysk05tdn8fyGnqx+8=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IpbtW7ANpNof8CkWEZM1zERqGTqrEmzC1HWyS76jtOw=
+			PIcgv0aeNWh19Py+HMbWyYbMq/80qCF+4XJDphn0Dro=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LBxQIRigKeblq2zrsttGNQsIo0HW11BlVD75HslyPk=
+			EmfxWE//NOmUJ9eH17nUTtmCRcDR30k5e7bY5jY/pHc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
