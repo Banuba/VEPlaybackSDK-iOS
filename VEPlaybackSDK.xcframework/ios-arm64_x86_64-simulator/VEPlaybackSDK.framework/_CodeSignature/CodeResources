@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z2eF3QfrNkFzfMHs+52AF0k4Fz4=
+		thFaOKebz9zpalm8Ty9xutVEzgU=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FiNrzddhGWzu63zweO57apKwdGE=
+		NStE5B9ZCJc0tsh4Iz1djWf9LPI=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6GVjsKfLusqKkj5bmcoqBjLf8qw=
+		KLOZOvV/py/izJy8hhnVtAdRlKw=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FiNrzddhGWzu63zweO57apKwdGE=
+		NStE5B9ZCJc0tsh4Iz1djWf9LPI=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l290TfQYHLM6036j6shGgH5hl+Y=
+		6VNN25+b/IFw5WLQk7lqHSUagnw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PIcgv0aeNWh19Py+HMbWyYbMq/80qCF+4XJDphn0Dro=
+			kanzN9ZFhj7Gi3GEYeRBmUW2MwJofHTXCjCwVS3m90w=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GNOOslwzna1+scNULOQ1+RFXSwysk05tdn8fyGnqx+8=
+			oJrmg3eUlVmhrQ1zDjs3z/6xYJDd4W+E2u/rI5n7qrQ=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PIcgv0aeNWh19Py+HMbWyYbMq/80qCF+4XJDphn0Dro=
+			kanzN9ZFhj7Gi3GEYeRBmUW2MwJofHTXCjCwVS3m90w=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmfxWE//NOmUJ9eH17nUTtmCRcDR30k5e7bY5jY/pHc=
+			o++M4PV/bvSI4M+BvVQNNWnrbvzxsJQpXezTZI804r8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
