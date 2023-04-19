@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VEPlaybackSDK-Swift.h</key>
 		<data>
-		gvTOg00RoefIZFDH/zhTpXMVVxY=
+		dev7e9TZj0OkwsnFShV/7Xh8i/4=
 		</data>
 		<key>Headers/VEPlaybackSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QARwXo92UxEi8NQTAHi72W8Khnk=
+		vNk9m4NvPQVl/Ozdk+ei3gu2vr4=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5SHRj2oJgkW87wfc/9BzRFon9+k=
+		sF8b7Buq8kw3ZM6vK2h3m+4bWy4=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7E/8GOOLwCtAQ6fXRpzDyZWUnMo=
+		4yO4W0l56bngNGR4OhAabJyRfzw=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5SHRj2oJgkW87wfc/9BzRFon9+k=
+		sF8b7Buq8kw3ZM6vK2h3m+4bWy4=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RNsNAK6w/F3IkNj9rBrRxHkizOs=
+		CSL/CjP751yeczAjlCXkfIYQpvo=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		17xeXSR1EpGJQYHhvmjNJroz+Fs=
+		VfvKBhD6wcpuV2IveyvrcPZDGNE=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Lyu2Pa8kohayOKr910k1yc4F4TE=
+		jbDmt7WtF4fMdx0oUgxYTpZMEik=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		17xeXSR1EpGJQYHhvmjNJroz+Fs=
+		VfvKBhD6wcpuV2IveyvrcPZDGNE=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rEJ/rn/jszkTd6VDJC6/oYttIzk=
+		1LIhJEAR/lVT9uzgNkoaFx1zVK8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k4XtW/fNY+POTBr6zDIq6d3VMnyrKUWEewv3RVV0AB8=
+			Ok+UATXg3HoEKx8ANnmr9O2M9uRr4zZlHOkPmnHb+nY=
 			</data>
 		</dict>
 		<key>Headers/VEPlaybackSDK.h</key>
@@ -88,28 +88,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tYfRezKDL6AxYde1fNkp271wIGz4nppUAmbardi9caY=
+			+WCHtC+MhPJbh0Hjtdx1hqDKCFLTWMeFHWDdr9W+vf0=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nG3Pb47FY7K9B0qUn0pBjfVK/fqyArWYB0p5ODq1tdU=
+			LGQXNPIy5b8iiZBITl/pRfpaNqPYH7bU1FlosfVlySA=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tYfRezKDL6AxYde1fNkp271wIGz4nppUAmbardi9caY=
+			+WCHtC+MhPJbh0Hjtdx1hqDKCFLTWMeFHWDdr9W+vf0=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgK5B6u8D4bxk+UL5aEGhB0/CkWeqknxaA6f+/+u2AA=
+			DQHbT6U5uRvJfp/vXGi+lFh1vAP63oTWCDl5AegcRJI=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -123,28 +123,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			01Z+OwCNFxo+FlTLhTI3GTk3FXAaGS/WqVGBapiGvi8=
+			u+Ljw+VNyrCIbCsL68A0633cPrbc72/gatAA5v/3rBQ=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GO12R2k+6sJMLpUg2Ia18340ksPJGIboVv94FGMPPaA=
+			xF1pKCp1o1/1cGvi9InuXGLLu1YAvCyGvNwFvVeh5R0=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01Z+OwCNFxo+FlTLhTI3GTk3FXAaGS/WqVGBapiGvi8=
+			u+Ljw+VNyrCIbCsL68A0633cPrbc72/gatAA5v/3rBQ=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			voFwDOvDZN38OW13fYi06+AGGTLQ2MwGoY+IdyUrxSE=
+			PI6BQnBbCPAFQwGliJIl/FKAVai7aFUkp9JiuyGHv3Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
