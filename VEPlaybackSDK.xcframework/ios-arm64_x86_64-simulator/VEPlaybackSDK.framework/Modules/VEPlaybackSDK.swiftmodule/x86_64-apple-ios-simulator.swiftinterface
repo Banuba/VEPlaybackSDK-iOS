@@ -14,7 +14,11 @@ import _StringProcessing
 public class VEPlayback {
   public init?(videoEditorService: VideoEditor.VideoEditorService)
   public func getPlayer(forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> BanubaUtilities.VideoEditorPlayable
-  public func getPlayableView(isThumbnailNeeded: Swift.Bool = true, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoPlayableView
+  public func getPlayableView(thumbnailSettings: VEPlaybackSDK.VEPlayback.ThumbnailSettings? = nil, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoPlayableView
+  public struct ThumbnailSettings {
+    public let playerTime: CoreMedia.CMTime
+    public init(playerTime: CoreMedia.CMTime)
+  }
   @objc deinit
 }
 public protocol VideoPlayableView : UIKit.UIImageView {
@@ -45,20 +49,15 @@ public protocol VideoPlayableView : UIKit.UIImageView {
   @objc deinit
 }
 public protocol PlayableViewController : AnyObject {
-  func startStopPlay(loop: Swift.Bool, fixedSpeed: Swift.Bool)
-  func startPlay(loop: Swift.Bool, fixedSpeed: Swift.Bool)
-  func stopPlay()
-  func pausePlay()
-  func resumePlay()
+  func play(loop: Swift.Bool, fixedSpeed: Swift.Bool)
+  func playRange(_ range: CoreMedia.CMTimeRange, loop: Swift.Bool, fixedSpeed: Swift.Bool)
+  func pause()
   func smoothlySeek(to time: CoreMedia.CMTime)
   func seek(to time: CoreMedia.CMTime)
   func reloadPreview(shouldAutoStart: Swift.Bool)
-  func reloadComposition(shouldAutoStart: Swift.Bool)
   func didVideoPlay(atTime time: CoreMedia.CMTime)
-  var currentTime: Foundation.TimeInterval { get }
-  var videoDuration: Swift.Double { get }
-  var currentTimeInCMTime: CoreMedia.CMTime { get }
-  var videoDurationInCMTime: CoreMedia.CMTime { get }
+  var currentTime: CoreMedia.CMTime { get }
+  var videoDuration: CoreMedia.CMTime { get }
   var player: BanubaUtilities.VideoEditorPlayable? { get }
   var isPlaying: Swift.Bool { get }
   var previewVideoView: VEPlaybackSDK.VideoPlayableView? { get }
