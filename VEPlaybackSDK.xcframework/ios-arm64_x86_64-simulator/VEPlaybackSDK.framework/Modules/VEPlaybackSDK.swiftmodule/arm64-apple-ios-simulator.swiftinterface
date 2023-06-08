@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VEPlaybackSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -13,8 +13,8 @@ import _Concurrency
 import _StringProcessing
 public class VEPlayback {
   public init?(videoEditorService: VideoEditor.VideoEditorService)
-  public func getPlayer(forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> BanubaUtilities.VideoEditorPlayable
-  public func getPlayableView(thumbnailSettings: VEPlaybackSDK.VEPlayback.ThumbnailSettings? = nil, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: BanubaUtilities.VideoEditorPlayerDelegate?) -> VEPlaybackSDK.VideoPlayableView
+  public func getPlayer(forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: (any BanubaUtilities.VideoEditorPlayerDelegate)?) -> any BanubaUtilities.VideoEditorPlayable
+  public func getPlayableView(thumbnailSettings: VEPlaybackSDK.VEPlayback.ThumbnailSettings? = nil, forExternalAsset asset: AVFoundation.AVAsset? = nil, delegate: (any BanubaUtilities.VideoEditorPlayerDelegate)?) -> any VEPlaybackSDK.VideoPlayableView
   public struct ThumbnailSettings {
     public let playerTime: CoreMedia.CMTime
     public init(playerTime: CoreMedia.CMTime)
@@ -24,12 +24,12 @@ public class VEPlayback {
 public protocol VideoPlayableView : UIKit.UIImageView {
   var previewLayer: AVFoundation.AVPlayerLayer { get }
   var imageGenerator: AVFoundation.AVAssetImageGenerator? { get set }
-  var videoEditorPlayer: BanubaUtilities.VideoEditorPlayable? { get set }
+  var videoEditorPlayer: (any BanubaUtilities.VideoEditorPlayable)? { get set }
   var player: AVFoundation.AVPlayer? { get }
-  func setPlayer(_ player: BanubaUtilities.VideoEditorPlayable?, isThumbnailNeeded: Swift.Bool)
+  func setPlayer(_ player: (any BanubaUtilities.VideoEditorPlayable)?, isThumbnailNeeded: Swift.Bool)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PlayablePreview : UIKit.UIImageView, VEPlaybackSDK.VideoPlayableView {
-  @_Concurrency.MainActor(unsafe) public var videoEditorPlayer: BanubaUtilities.VideoEditorPlayable?
+  @_Concurrency.MainActor(unsafe) public var videoEditorPlayer: (any BanubaUtilities.VideoEditorPlayable)?
   @_Concurrency.MainActor(unsafe) public var imageGenerator: AVFoundation.AVAssetImageGenerator?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
     @objc get
@@ -40,7 +40,7 @@ public protocol VideoPlayableView : UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public var player: AVFoundation.AVPlayer? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public func setPlayer(_ player: BanubaUtilities.VideoEditorPlayable?, isThumbnailNeeded: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setPlayer(_ player: (any BanubaUtilities.VideoEditorPlayable)?, isThumbnailNeeded: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(image: UIKit.UIImage?)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(image: UIKit.UIImage?, highlightedImage: UIKit.UIImage?)
@@ -58,7 +58,7 @@ public protocol PlayableViewController : AnyObject {
   func didVideoPlay(atTime time: CoreMedia.CMTime)
   var currentTime: CoreMedia.CMTime { get }
   var videoDuration: CoreMedia.CMTime { get }
-  var player: BanubaUtilities.VideoEditorPlayable? { get }
+  var player: (any BanubaUtilities.VideoEditorPlayable)? { get }
   var isPlaying: Swift.Bool { get }
-  var previewVideoView: VEPlaybackSDK.VideoPlayableView? { get }
+  var previewVideoView: (any VEPlaybackSDK.VideoPlayableView)? { get }
 }
