@@ -1446,6 +1446,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KingfisherCompatible",
+            "printedName": "KingfisherCompatible",
+            "usr": "s:15BanubaUtilities20KingfisherCompatibleP",
+            "mangledName": "$s15BanubaUtilities20KingfisherCompatibleP"
           }
         ]
       },
