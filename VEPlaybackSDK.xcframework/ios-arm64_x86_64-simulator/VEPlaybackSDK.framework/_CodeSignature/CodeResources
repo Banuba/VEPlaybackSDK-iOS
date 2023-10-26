@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o6KYoT+J//4Ts+OmNjnjHVYGsoc=
+		s7I9iMzzXflOMXvaJ8CidsU3jmM=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5+L1uplv9eS9maurEG6oUNlW2Vc=
+		32P6BR8j0ZvLdg3Uv1enj5Pw4bU=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2XXfGscjFZlad6Sl4ly+Qglkhs0=
+		9pvvBGLa3gnb7/0CplaLoqC8ffY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjq+flPCg90oy8fNZGZVHwMOdtSgzZJxtP910jg6+qc=
+			lK4IesrIWEJC9GiKZsGIA80OvWjRhJYXGwWpTYYIweU=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EC5syTo+8s1a5hqcDhy2+Y0gSOqBhR4LC3ILjhO/bbU=
+			JHkb7fMjOwm78VHjKoI6tIsbGobTqdYGEoyGPSel+5c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
