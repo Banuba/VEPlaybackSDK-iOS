@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MKPhwHkXj8nA2RzK+g2qMsYZWiw=
+		Sil71Nlg7qF+L0Eo2768TgROFpg=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		f0ljakJP7cChgbjAwTMy1HyaA4c=
+		d2gDl5KmvDqQFAAUTroYwYv+PA8=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		32P6BR8j0ZvLdg3Uv1enj5Pw4bU=
+		D3QF6+SwbBsY7+NeRYAEFgOOaNs=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		f0ljakJP7cChgbjAwTMy1HyaA4c=
+		d2gDl5KmvDqQFAAUTroYwYv+PA8=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9pvvBGLa3gnb7/0CplaLoqC8ffY=
+		jTukTVheSWF1payRqZGFRBSiP3E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/EQAS/btLX+IZVP/j8HYnJaLtPMRjuqG4ACX1Cc3O8=
+			u7Sc9p2UT7P9+rqQUhIE5hLfFBe0akFKabau42PeG+w=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lK4IesrIWEJC9GiKZsGIA80OvWjRhJYXGwWpTYYIweU=
+			q4mwKfQJEuHWQhzI4y5/1gJda9s7nOyi6+Kf8iDhjRY=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/EQAS/btLX+IZVP/j8HYnJaLtPMRjuqG4ACX1Cc3O8=
+			u7Sc9p2UT7P9+rqQUhIE5hLfFBe0akFKabau42PeG+w=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JHkb7fMjOwm78VHjKoI6tIsbGobTqdYGEoyGPSel+5c=
+			51x9TJxFoBndKxMIZFUUUT8CF8hqMkc/y9ocRbqZZqs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
