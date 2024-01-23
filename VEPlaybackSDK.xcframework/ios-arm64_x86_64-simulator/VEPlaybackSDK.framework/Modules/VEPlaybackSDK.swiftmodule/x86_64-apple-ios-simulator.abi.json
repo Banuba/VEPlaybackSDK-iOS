@@ -2132,21 +2132,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3831,
+      "offset": 4194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3850,
+      "offset": 4213,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/PlayerBundle\/VideoEditorPlayerBundle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4287,
+      "offset": 4650,
       "length": 4,
       "value": "true"
     },
@@ -2237,105 +2237,105 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 7204,
+      "offset": 8060,
       "length": 4,
       "value": "0.02"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8256,
+      "offset": 9112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 8275,
+      "offset": 9131,
       "length": 5,
       "value": "0.018"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 8297,
+      "offset": 9153,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8492,
+      "offset": 9348,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 8510,
+      "offset": 9366,
       "length": 5,
       "value": "0.018"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 8726,
+      "offset": 9582,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 8881,
+      "offset": 9737,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9510,
+      "offset": 10366,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9596,
+      "offset": 10452,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9610,
+      "offset": 10466,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9899,
+      "offset": 10755,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10097,
+      "offset": 10953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10288,
+      "offset": 11144,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 10333,
+      "offset": 11189,
       "length": 3,
       "value": "1.0"
     },
@@ -2461,7 +2461,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6458,
+      "offset": 6863,
       "length": 5,
       "value": "false"
     }
