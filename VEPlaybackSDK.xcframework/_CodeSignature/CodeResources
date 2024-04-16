@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/VEPlaybackSDK.framework/Info.plist</key>
 		<data>
-		fVWcdEoXtKFDCWmLdwKz8QdETjA=
+		RnGG7ODuUYti86UeN9UncvA7muk=
 		</data>
 		<key>ios-arm64/VEPlaybackSDK.framework/Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>ios-arm64/VEPlaybackSDK.framework/VEPlaybackSDK</key>
 		<data>
-		MHN2Lcl08+huE3kgxeF4Pj2aQeg=
+		Ug1/ipTBUUCYqlPQp827rqbTIeE=
 		</data>
 		<key>ios-arm64/VEPlaybackSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		MZUN1ANoKN/ecPSX2kIQcJaCH1M=
+		PoTzA6RgbKooV5B0+aUkM+4jrMU=
 		</data>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		2Z1rPZLID8B8f4IguSSVYZjiYp4=
+		TfmtQj4KgYtitiw5w+T1844OZ6U=
 		</data>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/DWARF/VEPlaybackSDK</key>
 		<data>
-		ChszxgGWe7SB5VJEPZaw1GXeBUs=
+		uBGo4jeLJ40XDetRk4IiR94oj+Y=
 		</data>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/VEPlaybackSDK.yml</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/Info.plist</key>
 		<data>
-		pvjW+/5cU/nO8OrsOYVPwabfdE0=
+		QOlUFJEt+RFcdE7OYc2MRRmH7Wg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,19 +114,19 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/VEPlaybackSDK</key>
 		<data>
-		cg83sVT4b3PsI1THv8fqISqKn4s=
+		+Atjk3dwKrr1m6wPuoAPTyfXIec=
 		</data>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		v8MTYAQxiYspMAbLI6WhagcKecs=
+		16lWuqXDIT2u5ZzQD+JVcAKjkyw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		2Z1rPZLID8B8f4IguSSVYZjiYp4=
+		TfmtQj4KgYtitiw5w+T1844OZ6U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/DWARF/VEPlaybackSDK</key>
 		<data>
-		bwUtOy+qwipPzS8ocxddXI+pxK8=
+		Ie5SpGwFNQQ60/bW0/6Eu+0tiOU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/VEPlaybackSDK.yml</key>
 		<data>
@@ -165,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fVWcdEoXtKFDCWmLdwKz8QdETjA=
+			RnGG7ODuUYti86UeN9UncvA7muk=
 			</data>
 			<key>hash2</key>
 			<data>
-			D5JH8LaINKA9RZH4dn7Nxnk3yvH9cA1UJ0GJeeuzXMk=
+			5k/ty+/HSTp49QbSM93JsrWeMvfcSzm0CBixRUCL8lk=
 			</data>
 		</dict>
 		<key>ios-arm64/VEPlaybackSDK.framework/Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -242,44 +242,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MHN2Lcl08+huE3kgxeF4Pj2aQeg=
+			Ug1/ipTBUUCYqlPQp827rqbTIeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			E9CauUQAcUK2ordG7r6U4ClHHLBMIk8iDA5c4VVcN3s=
+			KODIZk9b+7fXXZQaGN9+DGyjHvkmN+6sR8ZvQEnZuUA=
 			</data>
 		</dict>
 		<key>ios-arm64/VEPlaybackSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MZUN1ANoKN/ecPSX2kIQcJaCH1M=
+			PoTzA6RgbKooV5B0+aUkM+4jrMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ULfDTAjdA+K/yDqsYqFUa/gLcy2NaZBzmIhvC6yEUTc=
+			UF8rsIL9vFFmz5RdaHuLJeQkb5F1KPEu5TQDsC7Y89s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2Z1rPZLID8B8f4IguSSVYZjiYp4=
+			TfmtQj4KgYtitiw5w+T1844OZ6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			zp6aCfc6ARqte5qgVdztZf2o6blUrIb8Kr9kgMHkVdw=
+			smfQIxq6+LFXLU29nsqDFyvGLrz1Rg89fiiQJ+BF8kg=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/DWARF/VEPlaybackSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ChszxgGWe7SB5VJEPZaw1GXeBUs=
+			uBGo4jeLJ40XDetRk4IiR94oj+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			R+lxRos2kWYfA35KoX13UrBqw9S4agb3TQOhYixuWdI=
+			0OnzZKE/FTn+m1d9Ngz12dKmy5ajNUxdmtobLduCHzI=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/VEPlaybackSDK.yml</key>
@@ -319,11 +319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pvjW+/5cU/nO8OrsOYVPwabfdE0=
+			QOlUFJEt+RFcdE7OYc2MRRmH7Wg=
 			</data>
 			<key>hash2</key>
 			<data>
-			WP/tDe9hU0gUw/7Cv0gVtKRNundjZL52HchhbIeHT2M=
+			LDxLXXfA+7LqhpW9xzHU8yvXq2n4dFa7QXDhBEeFWY4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -440,44 +440,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cg83sVT4b3PsI1THv8fqISqKn4s=
+			+Atjk3dwKrr1m6wPuoAPTyfXIec=
 			</data>
 			<key>hash2</key>
 			<data>
-			h1WQ3c8kZ1sdKfLomq0Z4PTuW7Qui1BFgMU2pma8zFA=
+			lsKsTwCJ2XWN7t9pO/8GC99xMhrTL1oazuS83cJlBKc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/VEPlaybackSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v8MTYAQxiYspMAbLI6WhagcKecs=
+			16lWuqXDIT2u5ZzQD+JVcAKjkyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			je//6kdPFPCZolk191FfyUJbp6Utqk2LhWPsKRhc/sI=
+			PSW6q/dJXXxLqSQm54/vkmFXgLl/9fOh2pcI+QAdJYY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2Z1rPZLID8B8f4IguSSVYZjiYp4=
+			TfmtQj4KgYtitiw5w+T1844OZ6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			zp6aCfc6ARqte5qgVdztZf2o6blUrIb8Kr9kgMHkVdw=
+			smfQIxq6+LFXLU29nsqDFyvGLrz1Rg89fiiQJ+BF8kg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/DWARF/VEPlaybackSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bwUtOy+qwipPzS8ocxddXI+pxK8=
+			Ie5SpGwFNQQ60/bW0/6Eu+0tiOU=
 			</data>
 			<key>hash2</key>
 			<data>
-			t/H4gyi6DNy/PWWrNBU6AcQrpY+8UQjC62Snc07rA1g=
+			ByGlaeTAh6oeiEFuDw8+s+TWMBz+8If9tu69qZ+vdYs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/VEPlaybackSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/VEPlaybackSDK.yml</key>
