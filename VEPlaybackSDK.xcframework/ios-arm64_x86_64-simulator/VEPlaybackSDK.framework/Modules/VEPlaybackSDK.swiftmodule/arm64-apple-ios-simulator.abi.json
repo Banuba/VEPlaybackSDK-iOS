@@ -701,7 +701,7 @@
           {
             "kind": "Function",
             "name": "setPlayer",
-            "printedName": "setPlayer(_:isThumbnailNeeded:)",
+            "printedName": "setPlayer(_:isThumbnailNeeded:thumbnailTime:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -727,11 +727,25 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13VEPlaybackSDK17VideoPlayableViewP9setPlayer_17isThumbnailNeededy15BanubaUtilities0c6EditorD0_pSg_SbtF",
-            "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP9setPlayer_17isThumbnailNeededy15BanubaUtilities0c6EditorD0_pSg_SbtF",
+            "usr": "s:13VEPlaybackSDK17VideoPlayableViewP9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities0c6EditorD0_pSg_SbSo6CMTimeaSgtF",
+            "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities0c6EditorD0_pSg_SbSo6CMTimeaSgtF",
             "moduleName": "VEPlaybackSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : VEPlaybackSDK.VideoPlayableView>",
             "sugared_genericSig": "<Self where Self : VEPlaybackSDK.VideoPlayableView>",
@@ -740,6 +754,61 @@
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlayer",
+            "printedName": "setPlayer(_:isThumbnailNeeded:thumbnailTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaUtilities.VideoEditorPlayable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoEditorPlayable",
+                    "printedName": "BanubaUtilities.VideoEditorPlayable",
+                    "usr": "s:15BanubaUtilities19VideoEditorPlayableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VEPlaybackSDK17VideoPlayableViewPAAE9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities0c6EditorD0_pSg_SbSo6CMTimeaSgtF",
+            "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewPAAE9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities0c6EditorD0_pSg_SbSo6CMTimeaSgtF",
+            "moduleName": "VEPlaybackSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : VEPlaybackSDK.VideoPlayableView>",
+            "sugared_genericSig": "<Self where Self : VEPlaybackSDK.VideoPlayableView>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -1153,7 +1222,7 @@
           {
             "kind": "Function",
             "name": "setPlayer",
-            "printedName": "setPlayer(_:isThumbnailNeeded:)",
+            "printedName": "setPlayer(_:isThumbnailNeeded:thumbnailTime:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1179,16 +1248,124 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13VEPlaybackSDK15PlayablePreviewC9setPlayer_17isThumbnailNeededy15BanubaUtilities011VideoEditorC0_pSg_SbtF",
-            "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC9setPlayer_17isThumbnailNeededy15BanubaUtilities011VideoEditorC0_pSg_SbtF",
+            "usr": "s:13VEPlaybackSDK15PlayablePreviewC9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities011VideoEditorC0_pSg_SbSo6CMTimeaSgtF",
+            "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC9setPlayer_17isThumbnailNeeded13thumbnailTimey15BanubaUtilities011VideoEditorC0_pSg_SbSo6CMTimeaSgtF",
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
               "Custom",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VEPlaybackSDK@objc(cs)PlayablePreview(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyf6ChangeH0aypGSgSvSgtF",
+            "moduleName": "VEPlaybackSDK",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1322,47 +1499,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "VEPlaybackSDK.PlayablePreview?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PlayablePreview",
-                    "printedName": "VEPlaybackSDK.PlayablePreview",
-                    "usr": "c:@M@VEPlaybackSDK@objc(cs)PlayablePreview"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@VEPlaybackSDK@objc(cs)PlayablePreview(im)initWithCoder:",
-            "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "VEPlaybackSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -1376,7 +1512,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIImageView",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIImageView",
           "UIKit.UIView",
@@ -2158,6 +2294,48 @@
       "value": "\"⚠️, Token doesn't contain support for Playback API\""
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3500,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4061,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 15,
+      "value": "\"VEPlaybackSDK.PlayablePreview\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 15,
+      "value": "\"VEPlaybackSDK.PlayablePreview\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 15,
+      "value": "\"VEPlaybackSDK.PlayablePreview\""
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
@@ -2244,98 +2422,98 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9112,
+      "offset": 9193,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9131,
+      "offset": 9212,
       "length": 5,
       "value": "0.018"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9153,
+      "offset": 9234,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9348,
+      "offset": 9429,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9366,
+      "offset": 9447,
       "length": 5,
       "value": "0.018"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9582,
+      "offset": 9663,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9737,
+      "offset": 9818,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10366,
+      "offset": 10447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10452,
+      "offset": 10533,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10466,
+      "offset": 10547,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10755,
+      "offset": 10836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10953,
+      "offset": 11034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11144,
+      "offset": 11225,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/VideoEditorPlayer\/VideoEditorPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 11189,
+      "offset": 11270,
       "length": 3,
       "value": "1.0"
     },
@@ -2405,30 +2583,23 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3274,
+      "offset": 3410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3360,
+      "offset": 3496,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3374,
+      "offset": 3510,
       "length": 2,
       "value": "10"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3668,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
@@ -2440,28 +2611,35 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3995,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
-      "kind": "FloatLiteral",
-      "offset": 4040,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4700,
+      "offset": 3940,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6863,
+      "offset": 4131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4176,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4836,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/MusicEditorPlayer\/MusicEditorPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6999,
       "length": 5,
       "value": "false"
     }

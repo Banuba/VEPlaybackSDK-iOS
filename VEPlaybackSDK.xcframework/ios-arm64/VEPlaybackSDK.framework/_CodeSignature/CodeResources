@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VEPlaybackSDK-Swift.h</key>
 		<data>
-		b3pWeBpw9wRPTrD2o6F3dNPItcg=
+		1Z2/BvZf817suh/nwpYr0ASUQvY=
 		</data>
 		<key>Headers/VEPlaybackSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		krCTogmh9DAUh3ZwTkZ7V8ZucII=
+		sDypKU/Ti7O/dSb3T1bSrSKEYhU=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LBOT1AIKoU02XE/S2q8Ryw6mhPU=
+		7JIr06N7bCJCUDXkIMPk8eLBXWA=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+5nV9wZyLVNjGUP0/yOCbF7eJuk=
+		6r7WX7aQjUnoZnuYBfMkYFHa6y0=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		x04JZ0ActYDKnXuf/I715E77oX4=
+		cLGFGJRbex4l5qwUwvloaWdUQrk=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+5nV9wZyLVNjGUP0/yOCbF7eJuk=
+		6r7WX7aQjUnoZnuYBfMkYFHa6y0=
 		</data>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2Yha5JzICAetA56J1vQld4okIZ8=
+		xdMELM+ltVl/yp/iH7SkfX8YbaA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPlmaVdarb9TzoT2iQAX7sm6bGk2L3gjV72t50OU8KU=
+			iKx+K4+b4bWETcrBYQETTDb3eYLWOcRP6Am8HOQJyyo=
 			</data>
 		</dict>
 		<key>Headers/VEPlaybackSDK.h</key>
@@ -65,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCna1BuN+rWlHvQWzCu45Rbu4m6Sk+Y90k3Yq4TC+V8=
+			PWG5yohIaGLwUVXdJMMW6uogDb45lB33ocQaLQKBOW4=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tUgiy6y26DED4GMJrT+Mge/fuXtXMqkjT0slSwj/1lU=
+			7SwlMrCLI+S5aSMJ82jYh3qVIwsJbdUSRgdMsy9G3+4=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/BZzjRNrrXTnTR695VE32mnE+UCKjKJwF7nsfmrWaBc=
+			z6f7ajzm52UpG/xbCecjYifQJsE820A1lcnOaKJyZ5w=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tUgiy6y26DED4GMJrT+Mge/fuXtXMqkjT0slSwj/1lU=
+			7SwlMrCLI+S5aSMJ82jYh3qVIwsJbdUSRgdMsy9G3+4=
 			</data>
 		</dict>
 		<key>Modules/VEPlaybackSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IrqP9ssRQjk6SK/5CjpE0c4noxsn+jM6I7blkfqnkYM=
+			Wud0NKQ0bIgGlpWFEs2W/iMs5HFu8E5lqqwdck0AGSA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
