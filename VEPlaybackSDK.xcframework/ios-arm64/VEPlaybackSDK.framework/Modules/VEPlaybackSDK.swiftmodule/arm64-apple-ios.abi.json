@@ -699,6 +699,157 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isReadyForDisplayHandler",
+            "printedName": "isReadyForDisplayHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvp",
+            "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvp",
+            "moduleName": "VEPlaybackSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvg",
+                "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvg",
+                "moduleName": "VEPlaybackSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : VEPlaybackSDK.VideoPlayableView>",
+                "sugared_genericSig": "<Self where Self : VEPlaybackSDK.VideoPlayableView>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvs",
+                "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvs",
+                "moduleName": "VEPlaybackSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : VEPlaybackSDK.VideoPlayableView>",
+                "sugared_genericSig": "<Self where Self : VEPlaybackSDK.VideoPlayableView>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvM",
+                "mangledName": "$s13VEPlaybackSDK17VideoPlayableViewP24isReadyForDisplayHandleryycSgvM",
+                "moduleName": "VEPlaybackSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : VEPlaybackSDK.VideoPlayableView>",
+                "sugared_genericSig": "<Self where Self : VEPlaybackSDK.VideoPlayableView>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setPlayer",
             "printedName": "setPlayer(_:isThumbnailNeeded:thumbnailTime:)",
@@ -854,6 +1005,7 @@
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "Custom",
               "AccessControl",
@@ -886,6 +1038,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC17videoEditorPlayer15BanubaUtilities05VideofC0_pSgvg",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -918,6 +1073,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC17videoEditorPlayer15BanubaUtilities05VideofC0_pSgvs",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -936,6 +1094,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC17videoEditorPlayer15BanubaUtilities05VideofC0_pSgvM",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -966,6 +1127,7 @@
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "Custom",
               "AccessControl",
@@ -998,6 +1160,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC14imageGeneratorSo012AVAssetImageF0CSgvg",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -1030,6 +1195,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC14imageGeneratorSo012AVAssetImageF0CSgvs",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -1048,6 +1216,9 @@
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC14imageGeneratorSo012AVAssetImageF0CSgvM",
                 "moduleName": "VEPlaybackSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1078,7 +1249,7 @@
             "overriding": true,
             "objc_name": "layerClass",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "Override",
@@ -1112,7 +1283,7 @@
                 "overriding": true,
                 "objc_name": "layerClass",
                 "declAttributes": [
-                  "Dynamic",
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
@@ -1136,6 +1307,7 @@
             "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC12previewLayerSo08AVPlayerF0Cvp",
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
+              "Final",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1157,6 +1329,9 @@
                 "usr": "s:13VEPlaybackSDK15PlayablePreviewC12previewLayerSo08AVPlayerF0Cvg",
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC12previewLayerSo08AVPlayerF0Cvg",
                 "moduleName": "VEPlaybackSDK",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -1186,6 +1361,7 @@
             "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC6playerSo8AVPlayerCSgvp",
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
+              "Final",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1215,7 +1391,165 @@
                 "usr": "s:13VEPlaybackSDK15PlayablePreviewC6playerSo8AVPlayerCSgvg",
                 "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC6playerSo8AVPlayerCSgvg",
                 "moduleName": "VEPlaybackSDK",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReadyForDisplayHandler",
+            "printedName": "isReadyForDisplayHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvp",
+            "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvp",
+            "moduleName": "VEPlaybackSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvg",
+                "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvg",
+                "moduleName": "VEPlaybackSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvs",
+                "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvs",
+                "moduleName": "VEPlaybackSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvM",
+                "mangledName": "$s13VEPlaybackSDK15PlayablePreviewC24isReadyForDisplayHandleryycSgvM",
+                "moduleName": "VEPlaybackSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -1270,6 +1604,7 @@
             "moduleName": "VEPlaybackSDK",
             "declAttributes": [
               "Custom",
+              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1361,7 +1696,7 @@
             "overriding": true,
             "objc_name": "observeValueForKeyPath:ofObject:change:context:",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "Override",
@@ -1507,6 +1842,7 @@
         "moduleName": "VEPlaybackSDK",
         "declAttributes": [
           "Custom",
+          "Final",
           "AccessControl",
           "RawDocComment",
           "ObjC"
@@ -2240,28 +2576,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
       "kind": "IntegerLiteral",
-      "offset": 1926,
+      "offset": 2209,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1478,
       "length": 15,
       "value": "\"VEPlaybackSDK.PlayablePreview\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1478,
       "length": 15,
       "value": "\"VEPlaybackSDK.PlayablePreview\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEPlaybackSDK\/VEPlaybackSDK\/VEPlaybackSDK\/Components\/PlayablePreview.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1478,
       "length": 15,
       "value": "\"VEPlaybackSDK.PlayablePreview\""
     },
