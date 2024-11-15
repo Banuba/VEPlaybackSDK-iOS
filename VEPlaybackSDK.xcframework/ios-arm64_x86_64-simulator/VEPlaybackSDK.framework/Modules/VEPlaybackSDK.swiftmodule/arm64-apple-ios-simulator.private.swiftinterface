@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VEPlaybackSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import BanubaUtilities
 import Foundation
@@ -32,22 +33,22 @@ public protocol VideoPlayableView : UIKit.UIImageView {
 extension VEPlaybackSDK.VideoPlayableView {
   public func setPlayer(_ player: (any BanubaUtilities.VideoEditorPlayable)?, isThumbnailNeeded: Swift.Bool, thumbnailTime: CoreMedia.CMTime? = nil)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class PlayablePreview : UIKit.UIImageView, VEPlaybackSDK.VideoPlayableView {
-  @_Concurrency.MainActor(unsafe) final public var videoEditorPlayer: (any BanubaUtilities.VideoEditorPlayable)?
-  @_Concurrency.MainActor(unsafe) final public var imageGenerator: AVFoundation.AVAssetImageGenerator?
-  @_Concurrency.MainActor(unsafe) @objc override final public class var layerClass: Swift.AnyClass {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PlayablePreview : UIKit.UIImageView, VEPlaybackSDK.VideoPlayableView {
+  @_Concurrency.MainActor @preconcurrency final public var videoEditorPlayer: (any BanubaUtilities.VideoEditorPlayable)?
+  @_Concurrency.MainActor @preconcurrency final public var imageGenerator: AVFoundation.AVAssetImageGenerator?
+  @_Concurrency.MainActor @preconcurrency @objc override final public class var layerClass: Swift.AnyClass {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) final public var previewLayer: AVFoundation.AVPlayerLayer {
+  @_Concurrency.MainActor @preconcurrency final public var previewLayer: AVFoundation.AVPlayerLayer {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var player: AVFoundation.AVPlayer? {
+  @_Concurrency.MainActor @preconcurrency final public var player: AVFoundation.AVPlayer? {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var isReadyForDisplayHandler: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var isReadyForDisplayHandler: (() -> Swift.Void)?
   @objc deinit
-  @_Concurrency.MainActor(unsafe) final public func setPlayer(_ player: (any BanubaUtilities.VideoEditorPlayable)?, isThumbnailNeeded: Swift.Bool, thumbnailTime: CoreMedia.CMTime?)
-  @_Concurrency.MainActor(unsafe) @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency final public func setPlayer(_ player: (any BanubaUtilities.VideoEditorPlayable)?, isThumbnailNeeded: Swift.Bool, thumbnailTime: CoreMedia.CMTime?)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
 public protocol PlayableViewController : AnyObject {
   func play(loop: Swift.Bool, fixedSpeed: Swift.Bool)
