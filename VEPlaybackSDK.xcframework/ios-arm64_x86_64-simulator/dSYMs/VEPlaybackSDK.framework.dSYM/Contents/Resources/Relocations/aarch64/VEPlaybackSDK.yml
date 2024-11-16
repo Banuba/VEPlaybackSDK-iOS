@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/andreysak/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-ezoslqjgzogakvbxvtshzvbufdhd/Build/Intermediates.noindex/ArchiveIntermediates/VEPlaybackSDK/InstallationBuildProductsLocation/Library/Frameworks/VEPlaybackSDK.framework/VEPlaybackSDK'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/VEPlaybackSDK/InstallationBuildProductsLocation/Library/Frameworks/VEPlaybackSDK.framework/VEPlaybackSDK'
 relocations:
   - { offset: 0x784D5, size: 0x8, addend: 0x0, symName: _VEPlaybackSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xD7F0, symSize: 0x0 }
   - { offset: 0x7850A, size: 0x8, addend: 0x0, symName: _VEPlaybackSDKVersionNumber, symObjAddr: 0x40, symBinAddr: 0xD830, symSize: 0x0 }
